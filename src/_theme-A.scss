@@ -1,0 +1,48 @@
+$principal-font: comic ;
+$secondary-font: arial ;
+
+.container-1{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+
+    div {
+        width:150px;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        border: 2px grey solid;
+        text-align: center;
+        font-weight:  bold;
+        font-size: 20px;
+        font-family: cursive;
+
+      }
+
+    .item-1{
+        span{
+            padding: 20px;
+        }
+        text-align: start;
+        background-color: blue;
+    }
+    
+    .item-2{
+        background-color: brown;
+    }
+    .item-3{
+        background-color: pink;
+    }
+    .item-4{
+        .principal-font{
+            font-family: $principal-font;
+        }
+        .secondary-font{
+            font-family: $secondary-font;
+        }
+        border: 2px white solid;
+        text-align: start;
+    }
+    .item-5{
+        box-shadow: -15px 15px 15px lighten($color: #000000, $amount: 25%);
+    }
+}

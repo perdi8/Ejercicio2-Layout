@@ -1,0 +1,18 @@
+@import "theme-A";
+@import "theme-B";
+
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+}
+
+#flex-container{
+  padding-top: 4rem;
+  padding-left: 30rem;
+  padding-right: 30rem;
+  padding-bottom: 4rem;
+  width: 100vh;
+  display: inline-flex;
+  align-content: space-between;
+}
